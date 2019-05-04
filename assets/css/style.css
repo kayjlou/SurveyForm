@@ -52,3 +52,42 @@ p {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+.image {
+  /* background-color: white; */
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  /* width: 10px; */
+  /* height: auto; */
+  border-radius: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#image {
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    background-color: lightblue;
+  }
+  .image {
+    display: block;
+    width: 5px;
+    /* height: auto; */
+    opacity: .2;
+  }
+  .input, #dropdown, #comments {
+    width: 75%;
+  }
+}
