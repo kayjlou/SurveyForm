@@ -77,6 +77,10 @@ p {
   -o-border-radius: 20px;
 }
 
+#image:hover {
+  width: 200px;
+}
+
 @media only screen and (max-width: 800px) {
   .container {
     background-color: lightblue;
